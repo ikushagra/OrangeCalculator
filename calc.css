@@ -1,0 +1,132 @@
+body {
+    border-width: 0.1px;
+    font-family: 'Roboto Mono', monospace;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+.container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: grey;
+    box-sizing: border-box;
+    margin: 0;
+    overflow: hidden;
+}
+.wrapper{
+    border-style: solid;
+    color: black;
+    display: flex;
+    height: 555px;
+    width: 300px;
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+    background-color: red; 
+    background-image: linear-gradient(to top, #ed494a , #ee5f5c);
+    border: hidden;
+    padding: 0px;
+    box-shadow: 0px 16px 20px 4px
+}
+.display-cont{
+    background-color: red; 
+    background-image: linear-gradient(to top, #2628ab , #1a182b);
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+.display1{
+    border-style: hidden;
+    height: 72px;
+    width: 300;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    color: #eff0f4;
+    letter-spacing: 5px;
+    font-size: 35px;
+    display: flex;
+    justify-content: flex-end;
+    display: flex;
+    background: top;
+
+}
+.display2 {
+    border-style: hidden;
+    width: 300px;
+    height: 80px;
+    color: #eff0f4;
+    letter-spacing: 5px;
+    font-size: 50px;
+    justify-content: flex-end;
+    display: flex;
+
+}
+/* .button{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    
+    border-bottom-left-radius:20px ;
+
+} */
+.row, .rowl{
+    display: flex;
+    align-items: center;
+    color: #eff0f4;
+    justify-content: center;
+
+
+
+}
+.rowl{
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    width: 300px;
+    height: 100px;
+
+}
+.operator, .number{
+    border-style: hidden;
+    border-spacing: 100px;
+    display: flex;
+    height: 78px;
+    width: 75px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+    justify-content: center;
+    font-size: 30px;
+    cursor: pointer;
+}
+.operator:hover , .number:hover{
+background-color: #e4443d;
+}
+.operator:active , .number:hover {
+    background-color: #f36159;
+}
+
+.b{
+    width: 146px;
+    border: hidden;
+    height: 78px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #d84b43;
+    border-width: thin;
+    font-size: 30px;
+    cursor: pointer;
+
+}
+.b:hover{
+    background-color: #f36159;
+}
+.b:active{
+    background-color: #f16e67;
+}
